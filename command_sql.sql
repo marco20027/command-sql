@@ -51,7 +51,6 @@ SELECT COUNT(customer_id), name FROM customers GROUP BY name HAVING COUNT(custom
 SELECT name FROM customers ORDER BY age; --> ORDER BY sets the order of the returned results ASC = crescente DESC = decrescente
 
 
-
 /* inner join  */
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders
