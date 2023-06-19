@@ -75,4 +75,4 @@ INTO CustomersOrderBackup2017
 FROM Customers 
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
-
+SELECT name(male + ISNULL(female, 0)) from  Orders
